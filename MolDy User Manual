@@ -1,6 +1,8 @@
 *****************************************************************************
 ****************** Welcome to MolDy version 0.1 manual 2024 *****************
 
+Requirements: Ubuntu <=2022
+	      
 Download the package and extract to find (MolDy.tar.xz) and execute below commands on Ubuntu system.
 
 	$tar -xf moldy.tar.xz  
