@@ -1,0 +1,90 @@
+*****************************************************************************
+****************** Welcome to MolDy version 0.1 manual 2025 *****************
+
+Requirements: Ubuntu <=2022
+	      
+Download the package and extract to find (MolDy.tar.xz) and execute below commands on Ubuntu system.
+
+	$tar -xf moldy.tar.xz  
+         or 
+	$sudo tar -xf moldy.tar.xz
+	$cd moldy
+	$sudo ./makeinstall
+
+Select 1 for new installation, 2 for resetting/repair
+
+Follow the instructions further. 
+
+
+(To run simulation on GPU, user is required to install GPU dependencies.)
+#note: Open the terminal from the working directory location to start the application.
+#note: '$' is not a part of the commands.
+
+
+
+
+***************************************************************
+*********************** MolDy operation ***********************
+
+To start the MolDy software, open a terminal window at the working directory and run the following command.
+	$moldy
+
+
+******************** MolDy test run tutorial*******************
+
+The moldy application starts with the initialization window.
+Hit the Launch button. It will take a while to switch to Open experiment window.
+Confirm the working directory address on the moldy.
+Select the simulation system.
+Select <New Project> for fresh simulation run.
+Select <Open Project> to analysis of the previously performed simulation.
+Select <Restart> to restart broken MD simulation.
+Select <Extend> to extend the simulation time for the production run.
+
+The user doesn't have the protein/ligand files at ths moment an still wish to test run the MolDy, the test files can be downloaded.
+Clicking the text <CHARMM> in red for CHARMM forcefield test files and <GROMOS> for GROMOS force field test files. The test files will be downloaded in the working directory.
+Upload the relevant protein/ligand files and click <Submit> button.
+
+The relevant dynamics button at the bottom will be activated. On click it will switch to Simulation parameter window.
+
+At any time if user wish to confirm the GPU availability, hit <Check GPU> botton in botton left.
+
+The Protein/Complex Window will appear.
+The user is presented a numerous simulation parameter for select. For naive users keep the parameters as defaults.
+Check and change MD simulation run time (ns) according to the experimental needs.
+Click the <Submit> button.
+If the input files have no errors, the <Run> button will be activated. Click the <Run> button and the process will flow smoothly. 
+There will be several popup messages and consents for the user.
+
+After successful MD run the <Result button will be activated. Click on it. The application in a while will switch to the analysis window.
+
+On the analysis window, the user is required to enter a name for a directory where analysis files will be save (under the working directory).
+Input the analysis start and end time scale (ps) and click <Submit> button.
+
+The system will create the results and the button <Result ready for analysis> will be activated. Click it.
+Now user can download the files and plot the data using the dropdown and <Download/Plot> button next to it.
+
+
+
+
+************************************************************************
+************************ MolDy help & support **************************
+For help regarding Installation, operation and future updates please email at: khanmohdimran@outlook.com, innovation@aibresearch.com, imrankhan@aibresearch.com
+For support regarding the topology file please email at innovation@aibresearch.com (With subject Topology generation. The request will be queued and answered back accordingly.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
